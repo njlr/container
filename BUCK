@@ -5,13 +5,7 @@ cxx_library(
   header_namespace = 'boost/container',
   exported_headers = subdir_glob([
     ('include/boost/container', '**/*.hpp'),
-  ], 
-  excludes = [
-    'include/boost/container/detail/**/*.hpp',
-  ]),
-  headers = subdir_glob([
-    ('include/boost/container', 'detail/**/*.hpp'),
-    ('include/boost/container', 'detail/**/*.h'),
+    ('include/boost/container', '**/*.h'),
   ]),
   srcs = glob([
     'src/**/*.cpp',
