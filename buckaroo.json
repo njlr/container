@@ -1,0 +1,9 @@
+{
+  "name": "boost-container",
+  "dependencies": {
+    "boost-config": "1.63.0",
+    "boost-move": "1.63.0",
+    "boost-core": "1.63.0",
+    "boost-intrusive": "1.63.0"
+  }
+}
